@@ -1,0 +1,14 @@
+[
+  {
+    "language": "en",
+    "translations": {
+      "Greeting": "welcome to console app"
+    }
+  },
+  {
+    "language": "id",
+    "translations": {
+      "Greeting": "selamat datang di console app"
+    }
+  }
+]
