@@ -1,0 +1,20 @@
+﻿console app note
+
+library use
+1. Depedency Injection -> main project
+2. Hosting -> main project
+3. Logger -> class library
+
+step
+1. create sln with project console app
+2. create class library (new project item)
+3. install all library
+4. create mock data -> json file -> dont forget to change property to 'copy if newer'
+5. create interfaces -> folder and class interfaces
+6. create services -> folder and class services
+7. create models -> folder and class models
+8. create class App in Main Program
+7. coding Program for depedency injection -> see at class Program.cs
+8. coding App to run app -> see at class App.cs
+9. register App class in Program.cs using service.AddSingleton<App>()
+10. register class interfaces and service in Program.cs using service.AddSingleton<interface, service>()
